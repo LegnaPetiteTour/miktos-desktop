@@ -1,5 +1,6 @@
 name: Release
 
+# GitHub Actions workflow for creating desktop app releases
 on:
   push:
     tags:
