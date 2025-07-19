@@ -1,0 +1,26 @@
+[package]
+name = "miktos-desktop"
+version = "0.1.0"
+description = "Miktos AI-First Creative Platform - Desktop Application"
+authors = ["Miktos Universe"]
+license = "MIT"
+repository = "https://github.com/Miktos-Universe/miktos-desktop"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1.5.0", features = [] }
+
+[dependencies]
+tauri = { version = "1.5.0", features = [ "window-unminimize", "http-all", "fs-all", "window-start-dragging", "window-show", "window-maximize", "window-hide", "window-unmaximize", "window-minimize", "window-close", "shell-open"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+uuid = { version = "1.0", features = ["v4"] }
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#2D3748"/>
+  
+  <!-- Main M Letter -->
+  <path d="M8 24V8h3l4 8 4-8h3v16h-3V12l-3.5 7h-1L11 12v12H8z" fill="#63B3ED"/>
+  
+  <!-- Accent dot -->
+  <circle cx="25" cy="9" r="2" fill="#F56565"/>
+</svg>
