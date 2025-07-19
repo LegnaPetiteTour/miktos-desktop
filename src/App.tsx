@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react';
 import { invoke } from '@tauri-apps/api/tauri';
-import { Brain, Settings, Image } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Brain, Image, Settings } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
-import Sidebar from './components/Sidebar';
 import AICommandBar from './components/AICommandBar';
-import WorkflowCanvas from './components/WorkflowCanvas';
+import Sidebar from './components/Sidebar';
 import StatusBar from './components/StatusBar';
+import WorkflowCanvas from './components/WorkflowCanvas';
 
 interface SystemInfo {
   platform: string;
