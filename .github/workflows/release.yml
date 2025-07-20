@@ -1,4 +1,3 @@
-# Miktos Desktop Release Workflow
 name: Release
 
 # GitHub Actions workflow for creating desktop app releases

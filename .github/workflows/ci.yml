@@ -1,4 +1,3 @@
-# Miktos Desktop CI Workflow
 name: CI
 
 # GitHub Actions workflow for continuous integration

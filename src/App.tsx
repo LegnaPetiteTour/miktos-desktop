@@ -4,6 +4,7 @@ import { Brain, Image, Settings } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import AICommandBar from './components/AICommandBar';
+import { LiveContextPanel } from './components/LiveContextPanel';
 import Sidebar from './components/Sidebar';
 import StatusBar from './components/StatusBar';
 import WorkflowCanvas from './components/WorkflowCanvas';
@@ -28,6 +29,7 @@ function App() {
   const [aiBridgeStatus, setAiBridgeStatus] = useState<AIBridgeStatus | null>(null);
   const [activeView, setActiveView] = useState('workspace');
   const [isGenerating, setIsGenerating] = useState(false);
+  const [liveContextOpen, setLiveContextOpen] = useState(false);
 
   useEffect(() => {
     // Load system info and check AI bridge connection
@@ -214,6 +216,12 @@ function App() {
           aiBridgeStatus={aiBridgeStatus}
           systemInfo={systemInfo}
           isGenerating={isGenerating}
+        />
+
+        {/* Live Context Panel */}
+        <LiveContextPanel 
+          isOpen={liveContextOpen}
+          onToggle={() => setLiveContextOpen(!liveContextOpen)}
         />
       </div>
     </div>
