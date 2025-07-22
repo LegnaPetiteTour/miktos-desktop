@@ -1,23 +1,23 @@
-# Miktos Desktop
+# Miktos Desktop - Blender AI Bridge
 
-> AI-first creative platform for 3D animation and content generation
+> Intelligent bridge between you and Blender for professional 3D content creation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Tauri](https://img.shields.io/badge/Tauri-FFC131?logo=tauri&logoColor=white)](https://tauri.app)
 [![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org)
 
-Miktos Desktop is a cross-platform desktop application that provides an intuitive interface for AI-powered creative workflows, real-time collaboration, and seamless integration with the Miktos ecosystem.
+Miktos Desktop is a specialized desktop application that hosts the Miktos Agent, enabling artists to create professional 3D content in Blender through natural language commands. Transform your Blender workflow with intelligent automation and expert-level 3D content generation.
 
 ## ✨ Features
 
-- **AI-Powered Workflows**: Direct integration with ComfyUI for advanced AI generation
-- **Real-time Collaboration**: Share and collaborate on creative projects
+- **Natural Language Blender Commands**: Direct Blender operations through conversational interface
+- **Professional 3D Content Creation**: Expert-level output quality in seconds, not hours
+- **Local Processing**: User owns compute, minimal ongoing costs
+- **Specialized Blender Workflows**: Advanced 3D techniques through simple prompts
+- **Real-time Texture Generation**: AI-powered texture creation with automatic material application
 - **Cross-Platform**: Native desktop app for Windows, macOS, and Linux
-- **Modern UI**: Clean, responsive interface built with React and Tailwind CSS
-- **Workflow Canvas**: Visual workflow builder for complex AI pipelines
-- **Live Status Monitoring**: Real-time connection status with AI Bridge
-- **Extensible Architecture**: Plugin system for custom integrations
+- **Live Status Monitoring**: Real-time connection status with Miktos Agent
 
 ## 🚀 Quick Start
 
